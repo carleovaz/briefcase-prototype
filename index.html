@@ -1,120 +1,141 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <title>Carlos León Vázquez / CV</title>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="estilos.css" type="text/css">
+    <meta name="author" content="Carlos León Vázquez">
+    <meta name="description"
+        content="Carlos León Vázquez | Desarrollador de Aplicaciones Web, Graduado en Historia ... ">
+    <meta name="keywords" content="Desarrollador de Aplicaciones Web, Graduado en Historia, ">
+    <link rel="stylesheet" href="styles.css" type="text/css">
     <link rel="icon" href="icono1.ico" type="image/ico" />
     <script type="text/javascript" src="archivo.js"></script>
 </head>
 
 <body>
-    <!--Imagen de encabezado-->
-    <img src="imagenCabeza.jpeg" alt="imagen de encabezado" width="450">
-    <!--Zona del Menu-->
-    <ul>
-        <li><a href="#">INICIO</a></li>
-        <li><a href="#">SOBRE MI</a></li>
-        <li><a href="#">CURRICULUM</a></li>
-        <li><a href="#">CONTACTO</a></li>
-    </ul>
+    <!--IMAGEN DE ENCABEZADO-->
+    <div class="encabezado">
+        <header>
+            <img src="imagenCabeza.jpeg" alt="imagen de encabezado" width="450">
+            <!--ZONA DEL MENU-->
+            <nav>
+                <ul>
+                    <li><a href="#">INICIO</a></li>
+                    <li><a href="#">SOBRE MI</a></li>
+                    <li><a href="#">CURRICULUM</a></li>
+                    <li><a href="#">CONTACTO</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
     <div class="cajaBienvenida">
-        <h2>Título de bienvenida</h2>
-        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-            ea commodo consequat."</p>
+        <h2>¡Bienvenido!</h2>
+        <p>Un cordial saludo al usuario que ha llegado a mi página web/curriculum, en ella podras encontrar ademas de una breve presentación acerca mi persona, mis habilidades y
+           conocimientos que dispongo dentro del campo del desarrollo web y la programación, todo acompañado por supuesto de una serie de proyectos de proyectos de ejemplo que he realidaod y a los que podras acceder
+           y ver con sus correspondientes links. Encontraras a su vez, perfectamente detallada una linea temporal de mi educación y experiencia laboral. Por ultimo pero no menos importante, el apartado de mi contacto, 
+           con el cual podras ponerte en comunicación conmigo de forma profesional.
+        </p>
     </div>
 
-    <!--Zona de Presentación-->
+    <!--ZONA DE PRESENTACIÓN-->
     <div class="cajaIntroduccion">
-        <h2>Titulo de Introducción</h2>
-        <h3><u>Presentación</u></h3>
-        <img src="imagenAvatar.png" alt="imagen" width="220">
-        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-            ea commodo consequat."</p>
+        <h2>Sobre mi</h2>
+        <p><img src="carlos.jpg" alt="imagen" width="220"> ¡Muy buenas!, me llamo Carlos y soy desarrollador WEB, mis primeros pasos hacia el mundo de la informatica y la programación fueron bastantes extraños. Venia de hacer el graduado en Historia y mi primer pensamiento hacia 
+            la programación cuando se me planteó la idea de estudiar un ciclo de DAW, era muy simple (y errado), imaginandome todo ese tecnologico mundo repletos de ceros y unos, como si de una pelicula 
+            al más puro estilo de Matrix se tratara, todo muy aparatoso y complicado cuanto menos. Sin embargo, grande fue mi sorpresa cuando decidi lanzarme con decisión hacia este entretenido y divertido mundo,
+            comprobando que no era para nada igual a lo que me imaginaba. Me considero una persona trabajadora, amigable y colaboradora, no tengo problemas en ayudar a mis compañeros siempre que me necesiten, de la misma
+            forma que si yo no entiendo algo o no lo entiendo, me encargare de preguntar, asi como buscar e informarme con el fin de aprender. Si hay algo que pueda garantizarte como trabajador es, colaboración, apoyo y trabajo en equipo.</p>
         
-        <!--Lugar donde colocare las tecnologías que he ido aprendiendo con el paso del tiempo-->
+        <!--TECNOLOGÍAS APRENDIDAS-->
         <h3><u>Tecnologías</u></h3>
         <ul>
             <li>HTML</li>
+            <img src="html.jpg" alt="logo html" width="50px">
             <li>CSS</li>
-            <li>Java</li>
+            <img src="css.png" alt="logo html" width="50px">
+            <li>SASS</li>
+            <img src="sass.svg" alt="logo html" width="50px">
             <li>Javascript</li>
+            <img src="javascript.png" alt="logo html" width="50px">
+            <li>Java</li>
+            <img src="java.png" alt="logo html" width="50px">
             <li>SQL</li>
+            <img src="sql.png" alt="logo html" width="50px">
         </ul>
 
         <br>
-        <!--Tabla de contenidos donde almacenare unos ejemplos de proyecto que haya realizado-->
+        <!--TABLA DE CONTENIDOS CON PROYECTOS REALIZADOS-->
         <h3><u>Proyectos realizados</u></h3>
         <table>
             <tr>
-              <th>#</th>
-              <th Rowspan=1>Nombre del proyecto</th>
-              <th>Realizado en</th>
-              <th>Github</th>
+                <th>#</th>
+                <th Rowspan=1>Nombre del proyecto</th>
+                <th>Realizado en</th>
+                <th>Github</th>
             </tr>
-        
+
             <tr>
-              <td>1</td>
-              <td>El Mentiroso</td>
-              <td>Java y SQL</td>
-              <td><a href="https://github.com/carleovaz/Juego-de-cartas-El-Mentiroso">Enlace</a></td>
+                <td>1</td>
+                <td>El Mentiroso</td>
+                <td>Java y SQL</td>
+                <td><a href="https://github.com/carleovaz/Juego-de-cartas-El-Mentiroso">Enlace</a></td>
             </tr>
-          
+
             <tr>
                 <td>2</td>
                 <td>Página Web</td>
                 <td>HTML, CSS y JS</td>
                 <td><a href="https://github.com/carleovaz/briefcase">Enlace</a></td>
-              </tr>
-          
-              <tr>
+            </tr>
+
+            <tr>
                 <td>3</td>
                 <td>Otro proyecto</td>
                 <td>Ruby</td>
                 <td><a href="#">Enlace</a></td>
-              </tr>
-          </table>
+            </tr>
+        </table>
     </div>
     <br>
-    <!--Zona del curriculum-->
+    <!--ZONA DE CURRICULUM-->
     <div class="cajaCurriculum">
         <h2>Currículum</h2>
         <br>
-        <!--Línea de tiempo de experiencia laboral-->
+        <!--LÍNEA DE TIEMPO DE EXPERIENCIA LABORAL-->
         <h3><u>Experiencia</u></h3>
         <br>
-        <!--Línea de tiempo de educación-->
+        <!--LÍNEA DE TIEMPO DE EDUCACIÓN-->
         <h3><u>Educación</u></h3>
         <br>
-        <!--Cursos realizados, udemy, open webinars, etc...-->
+        <!--CURSOS REALIZADOS...-->
         <h3><u>Cursos/Certificados</u></h3>
         <ul>
             <li><a href="#">Curso 1</a></li>
             <li><a href="#">Curso 2</a></li>
             <li><a href="#">Curso 3</a></li>
         </ul>
-    </div>  
+    </div>
     <br>
 
-    <!--Zona de contacto-->
+    <!--ZONA DE CONTACTO-->
     <h2>Contacto</h2>
     <p><img alt="Imagen para registrar" width="16" src="telefono.jpg" /><b> Telefono:</b> 954 12 34 56</p>
     <p><img alt="Imagen para registrar" width="16" src="correo.jpg" /><b> Correo:</b> correodeejemplo@gmail.com</p>
     <p><img alt="Imagen para registrar" width="16" src="ciudad.jpg" /><b> Ciudad:</b> Sevilla / Andalucía</p>
-    <p><img alt="Imagen para registrar" width="16" src="ubicacion.png" /><b> Dirección:</b> Avnd de Ejemplo, numero 1, portal 1, 1ºA</p>
+    <p><img alt="Imagen para registrar" width="16" src="ubicacion.png" /><b> Dirección:</b> Avnd de Ejemplo, numero 1,
+        portal 1, 1ºA</p>
 
     <h3>Puedes encontrarme en:</h3>
     <a href="URL DESTINO"><img src="linkedin.png" alt="logo de linkedln"></a>
     <a href="URL DESTINO"><img src="Udemy.png" alt="logo de Udemy"></a>
     <a href="URL DESTINO"><img src="twitter.png" alt="logo de Twitter"></a>
     <a href="URL DESTINO"><img src="instagram.jpg" alt="logo de Instagram"></a>
-    
+
     <br>
     <br>
     <br>
-    <footer>
+    <footer class="pieDePagina">
         <p>Sitio diseñado y programado por el titular de la web &copy.</p>
     </footer>
 </body>
