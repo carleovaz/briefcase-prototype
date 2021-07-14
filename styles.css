@@ -1,0 +1,75 @@
+/**CSS GENERAL**/
+*
+{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/**ESTILOS PARA EL ENCABEZADO**/
+.encabezado 
+{
+    background-color: lightblue;
+}
+
+.pieDePagina
+{
+    background-color: lightblue;
+    height: 80px;
+}
+
+/**ENCABEZADO**/
+
+.encabezado img
+{
+    border-radius: 50%;
+}
+
+.encabezado
+
+    {
+        text-align: center;
+        padding: 0px;
+    }
+
+.encabezado ul
+    {
+        list-style: none;
+        display: inline-block;
+        padding:18px;
+    }
+  
+.encabezado li 
+    {
+        display: inline;
+    }
+
+.encabezado  li a    
+        {
+        font-size: 12px;
+        text-decoration: none;
+        float: left;
+        width: 150px;
+        padding: 10px;
+        background-color: gray;
+        color: #fff;
+        border: solid 2px white;
+        transition: all 500ms;
+        }
+
+.encabezado  li a:hover 
+        {
+        background-color: lightslategray;
+        text-transform: uppercase;
+        margin-top: -2;
+        padding-bottom: 12px;
+        box-shadow: 2px 2px 5px #999;
+        color:lightyellow;      
+        }
+
+/**INTRODUCCIÓN**/
+
+/**PRESENTACIÓN**/
+
+.cajaIntroduccion img
+{
+    border-radius: 25%;
+}
