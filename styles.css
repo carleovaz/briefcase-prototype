@@ -73,3 +73,10 @@
 {
     border-radius: 25%;
 }
+
+.tecnologias ul
+{
+    list-style: none;
+    display: inline-block;
+}
+
