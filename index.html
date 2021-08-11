@@ -2,209 +2,228 @@
 <html lang="es">
 
 <head>
-    <title>Carlos León Vázquez / CV</title>
-    <meta charset="utf-8">
-    <meta name="author" content="Carlos León Vázquez">
-    <meta name="description"
-        content="Carlos León Vázquez | Desarrollador de Aplicaciones Web, Graduado en Historia ... ">
-    <meta name="keywords" content="Desarrollador de Aplicaciones Web, Graduado en Historia, ">
-    <link rel="stylesheet" href="styles.css" type="text/css">
-    <link rel="icon" href="icono1.ico" type="image/ico" />
-    <script type="text/javascript" src="archivo.js"></script>
+  <title>Carlos León Vázquez / CV</title>
+  <meta charset="utf-8">
+  <meta name="author" content="Carlos León Vázquez">
+  <meta name="description" content="Carlos León Vázquez | Desarrollador de Aplicaciones Web, Graduado en Historia ... ">
+  <meta name="keywords" content="Desarrollador de Aplicaciones Web, Graduado en Historia, ">
+  <link rel="stylesheet" href="styles.css" type="text/css">
+  <link rel="icon" href="icono1.ico" type="image/ico" />
+  <script type="text/javascript" src="archivoJS.js"></script>
 </head>
 
 <body>
-    <!--IMAGEN DE ENCABEZADO-->
-    <div class="encabezado">
-        <header>
-            <img src="imagenCabeza.jpeg" alt="imagen de encabezado" width="450">
-            <!--ZONA DEL MENU-->
-            <nav>
-                <ul>
-                    <li><a href="#">INICIO</a></li>
-                    <li><a href="#">SOBRE MI</a></li>
-                    <li><a href="#">CURRICULUM</a></li>
-                    <li><a href="#">CONTACTO</a></li>
-                </ul>
-            </nav>
-        </header>
-    </div>
-    <div class="cajaBienvenida">
-        <h2>¡Bienvenido!</h2>
-        <p>Un cordial saludo al usuario que ha llegado a mi página web/curriculum, en ella podras encontrar ademas de
-            una breve presentación acerca mi persona, mis habilidades y
-            conocimientos que dispongo dentro del campo del desarrollo web y la programación, todo acompañado por
-            supuesto de una serie de proyectos de proyectos de ejemplo que he realidaod y a los que podras acceder
-            y ver con sus correspondientes links. Encontraras a su vez, perfectamente detallada una linea temporal de mi
-            educación y experiencia laboral. Por ultimo pero no menos importante, el apartado de mi contacto,
-            con el cual podras ponerte en comunicación conmigo de forma profesional.
-        </p>
-    </div>
+  <!--IMAGEN DE ENCABEZADO-->
+  <div id="container">
+    <header class="header">
+      <div class="logo">
+        <h1>Portafolio</h1>
+      </div>
 
-    <!--ZONA DE PRESENTACIÓN-->
-    <div class="cajaIntroduccion">
-        <h2>Sobre mi</h2>
-        <p><img src="carlos.jpg" alt="imagen" width="220"> ¡Muy buenas!, me llamo Carlos y soy desarrollador WEB, mis
-            primeros pasos hacia el mundo de la informatica y la programación fueron bastantes extraños. Venia de hacer
-            el graduado en Historia y mi primer pensamiento hacia
-            la programación cuando se me planteó la idea de estudiar un ciclo de DAW, era muy simple (y errado),
-            imaginandome todo ese tecnologico mundo repletos de ceros y unos, como si de una pelicula
-            al más puro estilo de Matrix se tratara, todo muy aparatoso y complicado cuanto menos. Sin embargo, grande
-            fue mi sorpresa cuando decidi lanzarme con decisión hacia este entretenido y divertido mundo,
-            comprobando que no era para nada igual a lo que me imaginaba. Me considero una persona trabajadora, amigable
-            y colaboradora, no tengo problemas en ayudar a mis compañeros siempre que me necesiten, de la misma
-            forma que si yo no entiendo algo o no lo entiendo, me encargare de preguntar, asi como buscar e informarme
-            con el fin de aprender. Si hay algo que pueda garantizarte como trabajador es, colaboración, apoyo y trabajo
-            en equipo.</p>
-
-        <!--TECNOLOGÍAS APRENDIDAS-->
-        <h3><u>Tecnologías</u></h3>
-        <div class="tecnologias">
-            <a href="https://developer.mozilla.org/es/docs/Web/HTML" target="_blank"><img src="html.jpg" alt="logo html" width="60px"></a>
-            <a href="https://developer.mozilla.org/es/docs/Web/CSS" target="_blank"><img src="css.png" alt="logo CSS" width="50px"></a>
-            <a href="https://getbootstrap.com/" target="_blank"><img src="bootstrap.png" alt="logo bootstrap" width="60px"></a>
-            <a href="https://sass-lang.com/" target="_blank"><img src="sass.svg" alt="logo SASS" width="60px"></a>
-            <a href="https://developer.mozilla.org/es/docs/Web/JavaScript" target="_blank"><img src="javascript.png" alt="logo JS" width="60px"></a>
-            <a href="https://www.java.com/es/about/whatis_java.jsp" target="_blank"><img src="java.png" alt="logo Java" width="60px"></a>
-            <a href="https://www.mysql.com/" target="_blank"><img src="mysql.jpg" alt="logo MYSQL" width="60px"></a>
-        </div>
-
-        <br>
-        <!--TABLA DE CONTENIDOS CON PROYECTOS REALIZADOS-->
-        <h3><u>Proyectos realizados</u></h3>
-        <table>
-            <tr>
-                <th>#</th>
-                <th Rowspan=1>Nombre del proyecto</th>
-                <th>Realizado en</th>
-                <th>Github</th>
-            </tr>
-
-            <tr>
-                <td>1</td>
-                <td>El Mentiroso</td>
-                <td>Java y SQL</td>
-                <td><a href="https://github.com/carleovaz/Juego-de-cartas-El-Mentiroso">Enlace</a></td>
-            </tr>
-
-            <tr>
-                <td>2</td>
-                <td>Página Web</td>
-                <td>HTML, CSS y JS</td>
-                <td><a href="https://github.com/carleovaz/briefcase">Enlace</a></td>
-            </tr>
-
-            <tr>
-                <td>3</td>
-                <td>Otro proyecto</td>
-                <td>Ruby</td>
-                <td><a href="#">Enlace</a></td>
-            </tr>
-        </table>
-    </div>
-    <br>
-    <!--ZONA DE CURRICULUM-->
-    <div class="cajaCurriculum">
-        <h2>Currículum</h2>
-        <br>
-        <!--LÍNEA DE TIEMPO DE EXPERIENCIA LABORAL-->
-        <h3><u>Experiencia</u></h3>
-        <div class="linea-tiempo">
-            <div class="momento">
-              <h3>¿¿¿ - ???</h3>
-              <div class="descripcion">
-                Poop on grasses fight an alligator and win and fight own tail.
-              </div>
-            </div>
-            <div class="momento">
-              <h3>¿¿¿ - ???</h3>
-              <div class="descripcion">
-                Poop on grasses fight an alligator and win and fight own tail.
-              </div>
-            </div>
-            <div class="momento">
-              <h3>¿¿¿ - ???</h3>
-              <div class="descripcion">
-                Poop on grasses fight an alligator and win and fight own tail.
-              </div>
-            </div>
-            <div class="momento">
-              <h3>¿¿¿ - ???</h3>
-              <div class="descripcion">
-                Poop on grasses fight an alligator and win and fight own tail.
-              </div>
-            </div>
-          </div>
-        <br>
-        <!--LÍNEA DE TIEMPO DE EDUCACIÓN-->
-        <h3><u>Educación</u></h3>
-        <div class="linea-tiempo">
-            <div class="momento">
-              <h3>2020 - 2022</h3>
-              <div class="descripcion">
-                <h4>GRUPO STUDIUM </h4>
-                <img src="grupoStudium1.png" alt="Colegio Santo Tomas de Aquino" width="150px">
-                <p>Estudiante de D.A.W</p>
-              </div>
-            </div>
-            <div class="momento">
-              <h3>2012 - 2019</h3>
-              <div class="descripcion">
-                <h4>UNIVERSIDAD DE SEVILLA </h4>
-                <img src="universidadSevilla.jpg" alt="Colegio Santo Tomas de Aquino" width="150px">
-                <p>Graduado en Historia.</p>
-              </div>
-            </div>
-            <div class="momento">
-              <h3>2010 - 2012</h3>
-              <div class="descripcion">
-                <h4>BACHILLERATO </h4>
-                <img src="santoTomas2.png" alt="Colegio Santo Tomas de Aquino" width="150px">
-                <p>Poop on grasses fight an alligator and win and fight own tail.</p>
-              </div>
-            </div>
-            <div class="momento">
-              <h3>2006 - 2010</h3>
-              <div class="descripcion">
-                <h4>E.S.O</h4>
-                <img src="santoTomas2.png" alt="Colegio Santo Tomas de Aquino" width="150px">
-                <p>Poop on grasses fight an alligator and win and fight own tail.</p>
-              </div>
-            </div>
-          </div>
-        <br>
-        <!--CURSOS REALIZADOS...-->
-        <h3><u>Cursos/Certificados</u></h3>
+      <nav id="menu">
         <ul>
-            <li><a href="#">Curso 1</a></li>
-            <li><a href="#">Curso 2</a></li>
-            <li><a href="#">Curso 3</a></li>
+          <li>
+            <a href="#">Inicio</a>
+          </li>
+          <li>
+            <a href="#">Proyectos</a>
+          </li>
+          <li>
+            <a href="#">Vlog</a>
+          </li>
+          <li>
+            <a href="#">Contacto</a>
+          </li>
         </ul>
+      </nav>
+    </header>
+    <div class="cajaBienvenida">
+      <h2>¡BIENVENIDO!</h2>
+      <br />
+      <p>Un cordial saludo al usuario que ha llegado a mi página web/curriculum, en ella podras encontrar ademas de
+        una breve presentación acerca mi persona, mis habilidades y
+        conocimientos que dispongo dentro del campo del desarrollo web y la programación, todo acompañado por
+        supuesto de una serie de proyectos de proyectos de ejemplo que he realidaod y a los que podras acceder
+        y ver con sus correspondientes links. Encontraras a su vez, perfectamente detallada una linea temporal de mi
+        educación y experiencia laboral. Por ultimo pero no menos importante, el apartado de mi contacto,
+        con el cual podras ponerte en comunicación conmigo de forma profesional.
+      </p>
+    </div>
+  </div>
+
+  <!--ZONA PRESENTACIÓN-->
+  <div class="container2">
+    <div class="cajaIntroduccion">
+      <h2>SOBRE MI</h2>
+      <br>
+      <img src="carlos.jpg" alt="imagen" width="220" class="imagenCarlos">
+      <br>
+      <p>¡Muy buenas!, me llamo Carlos y soy desarrollador WEB, mis
+        primeros pasos hacia el mundo de la informatica y la programación fueron bastantes extraños. Venia de hacer
+        el graduado en Historia y mi primer pensamiento hacia
+        la programación cuando se me planteó la idea de estudiar un ciclo de DAW, era muy simple (y errado),
+        imaginandome todo ese tecnologico mundo repletos de ceros y unos, como si de una pelicula
+        al más puro estilo de Matrix se tratara, todo muy aparatoso y complicado cuanto menos. Sin embargo, grande
+        fue mi sorpresa cuando decidi lanzarme con decisión hacia este entretenido y divertido mundo,
+        comprobando que no era para nada igual a lo que me imaginaba. Me considero una persona trabajadora, amigable
+        y colaboradora, no tengo problemas en ayudar a mis compañeros siempre que me necesiten, de la misma
+        forma que si yo no entiendo algo o no lo entiendo, me encargare de preguntar, asi como buscar e informarme
+        con el fin de aprender. Si hay algo que pueda garantizarte como trabajador es, colaboración, apoyo y trabajo
+        en equipo.</p>
+      <br>
+      <!--TECNOLOGÍAS APRENDIDAS-->
+      <h3><u>TECNOLOGÍAS</u></h3>
+      <br>
+      <div class="tecnologias">
+        <a href="https://developer.mozilla.org/es/docs/Web/HTML" target="_blank"><img src="html.jpg" alt="logo html"
+            width="60px"></a>
+        <a href="https://developer.mozilla.org/es/docs/Web/CSS" target="_blank"><img src="css.png" alt="logo CSS"
+            width="50px"></a>
+        <a href="https://developer.mozilla.org/es/docs/Web/JavaScript" target="_blank"><img src="javascript.png"
+            alt="logo JS" width="60px"></a>
+        <a href="https://www.java.com/es/about/whatis_java.jsp" target="_blank"><img src="java.png" alt="logo Java"
+            width="60px"></a>
+        <a href="https://www.mysql.com/" target="_blank"><img src="mysql.jpg" alt="logo MYSQL" width="60px"></a>
+      </div>
+      <br>
+      <!--TABLA DE CONTENIDOS CON PROYECTOS REALIZADOS-->
+      <h3><u>PROYECTOS</u></h3>
+      <br>
+      <table>
+        <tr>
+          <th>#</th>
+          <th Rowspan=1>Nombre del proyecto</th>
+          <th>Realizado en</th>
+          <th>Github</th>
+        </tr>
+
+        <tr>
+          <td>1</td>
+          <td>El Mentiroso</td>
+          <td>Java y SQL</td>
+          <td><a href="https://github.com/carleovaz/Juego-de-cartas-El-Mentiroso">Enlace</a></td>
+        </tr>
+
+        <tr>
+          <td>2</td>
+          <td>Página Web</td>
+          <td>HTML, CSS y JS</td>
+          <td><a href="https://github.com/carleovaz/briefcase">Enlace</a></td>
+        </tr>
+
+        <tr>
+          <td>3</td>
+          <td>Otro proyecto</td>
+          <td>Ruby</td>
+          <td><a href="#">Enlace</a></td>
+        </tr>
+      </table>
     </div>
     <br>
-    <h2>Mis pasiones</h2>
-    <br>
+  </div>
 
-    <!--ZONA DE CONTACTO-->
-    <h2>Contacto</h2>
-    <p><img alt="Imagen para registrar" width="16" src="telefono.jpg" /><b> Telefono:</b> 954 12 34 56</p>
-    <p><img alt="Imagen para registrar" width="16" src="correo.jpg" /><b> Correo:</b> correodeejemplo@gmail.com</p>
-    <p><img alt="Imagen para registrar" width="16" src="ciudad.jpg" /><b> Ciudad:</b> Sevilla / Andalucía</p>
-    <p><img alt="Imagen para registrar" width="16" src="ubicacion.png" /><b> Dirección:</b> Avnd de Ejemplo, numero 1,
-        portal 1, 1ºA</p>
+  <!--ZONA DE CURRICULUM-->
+  <div class="cajaCurriculum">
+    <h2>CURRICULUM</h2>
+    <br>
+    <!--LÍNEA DE TIEMPO DE EXPERIENCIA LABORAL-->
+    <h3><u>Experiencia</u></h3>
+    <div class="linea-tiempo">
+      <div class="momento">
+        <h3>¿¿¿ - ???</h3>
+        <div class="descripcion">
+          Poop on grasses fight an alligator and win and fight own tail.
+        </div>
+      </div>
+      <div class="momento">
+        <h3>¿¿¿ - ???</h3>
+        <div class="descripcion">
+          Poop on grasses fight an alligator and win and fight own tail.
+        </div>
+      </div>
+      <div class="momento">
+        <h3>¿¿¿ - ???</h3>
+        <div class="descripcion">
+          Poop on grasses fight an alligator and win and fight own tail.
+        </div>
+      </div>
+      <div class="momento">
+        <h3>¿¿¿ - ???</h3>
+        <div class="descripcion">
+          Poop on grasses fight an alligator and win and fight own tail.
+        </div>
+      </div>
+    </div>
+    <br>
+    <!--LÍNEA DE TIEMPO DE EDUCACIÓN-->
+    <h3><u>EDUCACIÓN</u></h3>
+    <div class="linea-tiempo">
+      <div class="momento">
+        <h3>2020 - 2022</h3>
+        <div class="descripcion">
+          <h4>GRUPO STUDIUM </h4>
+          <img src="grupoStudium1.png" alt="Colegio Santo Tomas de Aquino" width="150px">
+          <p>Estudiante de D.A.W</p>
+        </div>
+      </div>
+      <div class="momento">
+        <h3>2012 - 2019</h3>
+        <div class="descripcion">
+          <h4>UNIVERSIDAD DE SEVILLA </h4>
+          <img src="universidadSevilla.jpg" alt="Colegio Santo Tomas de Aquino" width="150px">
+          <p>Graduado en Historia.</p>
+        </div>
+      </div>
+      <div class="momento">
+        <h3>2010 - 2012</h3>
+        <div class="descripcion">
+          <h4>BACHILLERATO </h4>
+          <img src="santoTomas2.png" alt="Colegio Santo Tomas de Aquino" width="150px">
+          <p>Poop on grasses fight an alligator and win and fight own tail.</p>
+        </div>
+      </div>
+      <div class="momento">
+        <h3>2006 - 2010</h3>
+        <div class="descripcion">
+          <h4>E.S.O</h4>
+          <img src="santoTomas2.png" alt="Colegio Santo Tomas de Aquino" width="150px">
+          <p>Poop on grasses fight an alligator and win and fight own tail.</p>
+        </div>
+      </div>
+    </div>
+    <br>
+    <!--CURSOS REALIZADOS...-->
+    <h3><u>CURSOS/CERTIFICADOS</u></h3>
+    <ul>
+      <li><a href="#">Curso 1</a></li>
+      <li><a href="#">Curso 2</a></li>
+      <li><a href="#">Curso 3</a></li>
+    </ul>
+  </div>
+  <br>
+  <h2>MIS PASIONES</h2>
+  <br>
 
-    <h3>Puedes encontrarme en:</h3>
-    <a href="URL DESTINO"><img src="linkedin.png" alt="logo de linkedln"></a>
-    <a href="URL DESTINO"><img src="Udemy.png" alt="logo de Udemy"></a>
-    <a href="URL DESTINO"><img src="twitter.png" alt="logo de Twitter"></a>
-    <a href="URL DESTINO"><img src="instagram.jpg" alt="logo de Instagram"></a>
+  <!--ZONA DE CONTACTO-->
+  <h2>Contacto</h2>
+  <p><img alt="Imagen para registrar" width="16" src="telefono.jpg" /><b> Telefono:</b> 954 12 34 56</p>
+  <p><img alt="Imagen para registrar" width="16" src="correo.jpg" /><b> Correo:</b> correodeejemplo@gmail.com</p>
+  <p><img alt="Imagen para registrar" width="16" src="ciudad.jpg" /><b> Ciudad:</b> Sevilla / Andalucía</p>
+  <p><img alt="Imagen para registrar" width="16" src="ubicacion.png" /><b> Dirección:</b> Avnd de Ejemplo, numero 1,
+    portal 1, 1ºA</p>
 
-    <br>
-    <br>
-    <br>
-    <footer class="pieDePagina">
-        <p>Sitio diseñado y programado por el titular de la web &copy.</p>
-    </footer>
+  <h3>Puedes encontrarme en:</h3>
+  <a href="URL DESTINO"><img src="linkedin.png" alt="logo de linkedln"></a>
+  <a href="URL DESTINO"><img src="Udemy.png" alt="logo de Udemy"></a>
+  <a href="URL DESTINO"><img src="twitter.png" alt="logo de Twitter"></a>
+  <a href="URL DESTINO"><img src="instagram.jpg" alt="logo de Instagram"></a>
+
+  <br>
+  <br>
+  <br>
+  <footer class="pieDePagina">
+    <p>Sitio diseñado y programado por el titular de la web &copy.</p>
+  </footer>
 </body>
 
 </html>
