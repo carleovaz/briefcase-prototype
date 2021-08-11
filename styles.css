@@ -1,89 +1,185 @@
 /**CSS GENERAL**/
 *
 {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
     font-family: 'Times New Roman', Times, serif;
 }
 
-/**ESTILOS PARA EL ENCABEZADO**/
-.encabezado 
+
+
+/**CONTAINER INICIAL**/
+
+#container
 {
-    background-color: lightblue;
+    width: 90%;
+    height: auto;
+    margin:0px auto;
+    border: 1px solid rgba(225,225,226,0.8);
+    box-shadow: 0px 0px 10px #ccc;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    min-height: 300px;
 }
 
-.pieDePagina
+.header 
 {
-    background-color: lightblue;
-    height: 80px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 120px;
+    border-bottom:1px solid rgba(225,225,226,0.8) ;
+    background-color: rgba(225,225,226,0.8);
 }
 
-/**ENCABEZADO**/
+.logo
+{
+    flex-grow: 1;
+    flex-basis: 65%;
+    padding: 10px;
+    margin-left: 20px;
+    color: black;
+    text-shadow: 1px,2px,0px #ccc;
+    text-transform: uppercase;
+    transition: 3ms;
+}
 
-.encabezado img
-    {
-        border-radius: 50%;
-    }
+.logo h1
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style:italic;
+    font-weight: 900px;
+    font-size: 35px;
+}
 
-.encabezado
+#menu
+{
+    flex-grow: 1;
+    flex-basis: 30%;
+    height: 100%;
+}
 
-    {
-        text-align: center;
-        padding: 0px;
-    }
+#menu >ul
+{
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    list-style: none;
+}
 
-.encabezado ul
-    {
-        list-style: none;
-        display: inline-block;
-        padding:18px;
-    }
-  
-.encabezado li 
-    {
-        display: inline;
-    }
+#menu a
+{
+    color:444;
+    text-transform: uppercase;
+    padding: 15px;
+    transition: all 300ms;
+}
 
-.encabezado  li a    
-    {
-        font-size: 12px;
-        text-decoration: none;
-        background-color: gray;
-        color: #fff;
-        border: solid 2px white;
-        transition: all 500ms;
-        float: left;
-        width: 150px;
-        padding: 10px;
-    }
+#menu a:hover 
+{
+    background: ccc;
+    color: black;
+    background-color: lightblue;
+    border-radius: 20%;
+}
 
-.encabezado  li a:hover 
-    {
-        background-color: lightslategray;
-        text-transform: uppercase;
-        margin-top: -2;
-        padding-bottom: 12px;
-        box-shadow: 2px 2px 5px #999;
-        color:lightyellow;      
-    }
+/**CAJA BIENVENIDA**/
 
-/**INTRODUCCIÓN**/
 
-/**PRESENTACIÓN**/
+.cajaBienvenida h2
+{
+  text-align:center;
+}
 
 .cajaBienvenida
 {
-    border: solid black 2px;
+  padding: 50px;
+  text-align:justify;
+  font-size: 22px;
 }
 
-.cajaIntroduccion img
-    {
-        border-radius: 25%;
-    }
+/**ZONA PRESENTACIÓN, TECNOLOGIAS Y TABLA DE CONTENIDOS**/
+.container2
+{
+    width: 90%;
+    height: auto;
+    margin:0px auto;
+    border: 1px solid rgba(225,225,226,0.8);
+    box-shadow: 0px 0px 10px #ccc;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    min-height: 800px;
+}
 
-.tecnologias ul
-    {
-        list-style: none;
-        display: inline-block;
-    }
+.cajaIntroduccion h2
+{
+  text-align:center;
+}
+
+.cajaIntroduccion
+{
+  padding: 50px;
+  text-align:justify;
+  font-size: 22px;
+}
+
+.imagenCarlos
+{
+display:block;
+margin-left: auto;
+margin-right: auto;
+border: solid 5px rgba(225,225,226,0.8);
+border-radius: 50%;
+}
+
+.cajaIntroduccion h3
+{
+  text-align:center;
+}
+
+.tecnologias img
+{
+display:block;
+margin:auto;
+margin-left: auto;
+margin-right: auto;
+border: solid 5px rgba(225,225,226,0.8);
+border-radius: 50%;
+}
+
+.container2 table
+{
+  border: 1px solid black;
+  margin: auto;
+  width: 1000px;
+  text-align: center;
+  
+}
+
+.container2 table tr
+{
+  border: 1px solid black;
+}
+
+.container2 table td
+{
+  border: 1px solid black;
+  background-color: khaki;
+}
+
+.container2 table th
+{
+  border: 1px solid black;
+  background-color: cadetblue;
+}
+
+
 
 /**LINEA DE TIEMPO**/
 
@@ -190,4 +286,6 @@
     border-right: 12px solid #eee;
     border-left: none;
   }
+
+
 
